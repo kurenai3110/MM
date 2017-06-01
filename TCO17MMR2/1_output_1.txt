@@ -1,0 +1,300 @@
+seed = 1 
+attackT 847
+Score = 399.5441664942113
+seed = 2 
+attackT 838
+Score = 1442.0733819409545
+seed = 3 
+attackT 943
+Score = 412.18690928357324
+seed = 4 
+attackT 958
+Score = 349.40329697501613
+seed = 5 
+attackT 561
+Score = 1624.452824909108
+seed = 6 
+attackT 668
+Score = 1492.5493633163683
+seed = 7 
+attackT 926
+Score = 331.017900894202
+seed = 8 
+attackT 867
+Score = 456.59251586402627
+seed = 9 
+attackT 547
+Score = 1636.5672261584705
+seed = 10 
+attackT 938
+Score = 353.51701909159334
+seed = 11 
+attackT 994
+Score = 319.8529912100859
+seed = 12 
+attackT 612
+Score = 1592.720088622771
+seed = 13 
+attackT 511
+Score = 1660.206188064035
+seed = 14 
+attackT 704
+Score = 1565.2466796982503
+seed = 15 
+attackT 944
+Score = 329.167234638444
+seed = 16 
+attackT 784
+Score = 579.5324377601503
+seed = 17 
+attackT 960
+Score = 335.67858281889244
+seed = 18 
+attackT 704
+Score = 1644.654397400139
+seed = 19 
+attackT 558
+Score = 1626.803334763265
+seed = 20 
+attackT 828
+Score = 507.1111018264113
+seed = 21 
+attackT 593
+Score = 1598.870080601714
+seed = 22 
+attackT 954
+Score = 359.4477140282427
+seed = 23 
+attackT 512
+Score = 1708.4613524617403
+seed = 24 
+attackT 715
+Score = 1274.4841738196465
+seed = 25 
+attackT 797
+Score = 1454.1119655019065
+seed = 26 
+attackT 879
+Score = 391.53012081462407
+seed = 27 
+attackT 859
+Score = 376.5160371660287
+seed = 28 
+attackT 696
+Score = 1534.4457750305005
+seed = 29 
+attackT 637
+Score = 1598.3076180058724
+seed = 30 
+attackT 787
+Score = 1311.1704062905962
+seed = 31 
+attackT 745
+Score = 1410.8364364642846
+seed = 32 
+attackT 503
+Score = 1724.8971581408196
+seed = 33 
+attackT 555
+Score = 1670.5601261858128
+seed = 34 
+attackT 818
+Score = 1109.1095825035934
+seed = 35 
+attackT 702
+Score = 1648.3508426707322
+seed = 36 
+attackT 640
+Score = 1579.2450760239271
+seed = 37 
+attackT 753
+Score = 1446.211169698729
+seed = 38 
+attackT 907
+Score = 325.6741906458111
+seed = 39 
+attackT 825
+Score = 1341.0940800346507
+seed = 40 
+attackT 583
+Score = 1710.2218183808845
+seed = 41 
+attackT 501
+Score = 1721.1945445140695
+seed = 42 
+attackT 734
+Score = 1544.2164832599203
+seed = 43 
+attackT 757
+Score = 1352.141311300194
+seed = 44 
+attackT 689
+Score = 1612.8654655483028
+seed = 45 
+attackT 711
+Score = 1495.3539228875572
+seed = 46 
+attackT 792
+Score = 1560.4119252005084
+seed = 47 
+attackT 807
+Score = 1382.9018309797286
+seed = 48 
+attackT 773
+Score = 1376.649288245607
+seed = 49 
+attackT 974
+Score = 340.9904950876666
+seed = 50 
+attackT 510
+Score = 1696.0971061446128
+seed = 51 
+attackT 843
+Score = 1319.6262101859318
+seed = 52 
+attackT 685
+Score = 1574.3384827097693
+seed = 53 
+attackT 907
+Score = 367.76581203258434
+seed = 54 
+attackT 570
+Score = 1661.7126473785065
+seed = 55 
+attackT 579
+Score = 1654.4398605855736
+seed = 56 
+attackT 807
+Score = 1280.6064041903603
+seed = 57 
+attackT 593
+Score = 1670.2310114691295
+seed = 58 
+attackT 800
+Score = 1574.0472699621098
+seed = 59 
+attackT 888
+Score = 426.6903255927629
+seed = 60 
+attackT 709
+Score = 1524.2478370152244
+seed = 61 
+attackT 750
+Score = 1608.8566432047805
+seed = 62 
+attackT 612
+Score = 1575.9341215958007
+seed = 63 
+attackT 871
+Score = 366.4448819147176
+seed = 64 
+attackT 926
+Score = 398.1130590165578
+seed = 65 
+attackT 547
+Score = 1611.7291301683886
+seed = 66 
+attackT 755
+Score = 1591.3835152365318
+seed = 67 
+attackT 661
+Score = 1568.133075282907
+seed = 68 
+attackT 885
+Score = 352.66586140716555
+seed = 69 
+attackT 989
+Score = 355.6057441435612
+seed = 70 
+attackT 827
+Score = 1116.0108163443374
+seed = 71 
+attackT 863
+Score = 393.96012905379894
+seed = 72 
+attackT 849
+Score = 389.1617026659967
+seed = 73 
+attackT 810
+Score = 1290.2421135376608
+seed = 74 
+attackT 585
+Score = 1584.9136948872035
+seed = 75 
+attackT 540
+Score = 1692.1950010643582
+seed = 76 
+attackT 548
+Score = 1642.4555571964556
+seed = 77 
+attackT 562
+Score = 1662.6789455133896
+seed = 78 
+attackT 584
+Score = 1595.769326287938
+seed = 79 
+attackT 548
+Score = 1674.1360175483103
+seed = 80 
+attackT 515
+Score = 1692.860830591835
+seed = 81 
+attackT 524
+Score = 1699.9985156618684
+seed = 82 
+attackT 658
+Score = 1559.9012412071238
+seed = 83 
+attackT 987
+Score = 413.4998943582716
+seed = 84 
+attackT 881
+Score = 411.5291781240078
+seed = 85 
+attackT 743
+Score = 1518.3940032035912
+seed = 86 
+attackT 673
+Score = 1645.3131821624258
+seed = 87 
+attackT 774
+Score = 1335.895908254531
+seed = 88 
+attackT 754
+Score = 715.6956375831962
+seed = 89 
+attackT 771
+Score = 1518.289709671963
+seed = 90 
+attackT 971
+Score = 396.46937111921886
+seed = 91 
+attackT 701
+Score = 1506.0489314336378
+seed = 92 
+attackT 815
+Score = 556.0210706845137
+seed = 93 
+attackT 651
+Score = 1610.0175910065977
+seed = 94 
+attackT 852
+Score = 1297.827899637808
+seed = 95 
+attackT 800
+Score = 1302.3497913355072
+seed = 96 
+attackT 743
+Score = 1521.5322535704445
+seed = 97 
+attackT 792
+Score = 557.9744409938017
+seed = 98 
+attackT 715
+Score = 1579.8037752361745
+seed = 99 
+attackT 622
+Score = 1662.110709560351
+seed = 100 
+attackT 577
+Score = 1683.7237254692232

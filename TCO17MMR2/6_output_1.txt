@@ -1,0 +1,400 @@
+attackT 764
+attackT 764
+attackT 764
+Score = 397.66613335358545
+attackT 844
+attackT 721
+attackT 721
+Score = 1560.6099059684957
+attackT 663
+attackT 663
+attackT 663
+Score = 1600.085667390395
+attackT 550
+attackT 619
+attackT 619
+Score = 1628.2163656162654
+attackT 860
+attackT 860
+attackT 860
+Score = 219.86294863762188
+attackT 751
+attackT 751
+attackT 751
+Score = 290.300406517002
+attackT 663
+attackT 663
+attackT 663
+Score = 1534.3564906852944
+attackT 673
+attackT 673
+attackT 769
+Score = 1328.1641836550443
+attackT 568
+attackT 568
+attackT 568
+Score = 1630.6063125431356
+attackT 583
+attackT 583
+attackT 583
+Score = 1520.6808717860886
+attackT 754
+attackT 826
+attackT 826
+Score = 1559.4922309200106
+attackT 969
+attackT 888
+attackT 888
+Score = 198.77191965611956
+attackT 700
+attackT 700
+attackT 700
+Score = 1594.18696229972
+attackT 573
+attackT 573
+attackT 573
+Score = 1593.899046290309
+attackT 934
+attackT 934
+attackT 934
+Score = 249.33952263675206
+attackT 543
+attackT 543
+attackT 543
+Score = 1700.1450569609183
+attackT 566
+attackT 566
+attackT 566
+Score = 1622.9765746863686
+attackT 745
+attackT 556
+attackT 556
+Score = 1631.0383470762104
+attackT 660
+attackT 660
+attackT 660
+Score = 334.33831508627617
+attackT 782
+attackT 782
+attackT 782
+Score = 171.39829157901045
+attackT 619
+attackT 619
+attackT 865
+Score = 1505.523700109562
+attackT 749
+attackT 858
+attackT 858
+Score = 322.526815682252
+attackT 975
+attackT 975
+attackT 975
+Score = 228.4527527424327
+attackT 775
+attackT 775
+attackT 775
+Score = 1590.3391708570978
+attackT 730
+attackT 730
+attackT 730
+Score = 1523.9948514868051
+attackT 963
+attackT 963
+attackT 963
+Score = 310.30674105850704
+attackT 820
+attackT 820
+attackT 820
+Score = 203.0141172154299
+attackT 703
+attackT 703
+attackT 945
+Score = 1568.0556092018292
+attackT 588
+attackT 881
+attackT 881
+Score = 1561.0171388259796
+attackT 702
+attackT 702
+attackT 804
+Score = 1548.0000692833933
+attackT 712
+attackT 712
+attackT 712
+Score = 275.6676794328328
+attackT 554
+attackT 554
+attackT 554
+Score = 1620.5868581009756
+attackT 637
+attackT 770
+attackT 770
+Score = 1572.954882091952
+attackT 572
+attackT 741
+attackT 741
+Score = 1533.0733255913374
+attackT 805
+attackT 805
+attackT 805
+Score = 283.6606159342786
+attackT 882
+attackT 964
+attackT 964
+Score = 296.1121125343095
+attackT 931
+attackT 514
+attackT 514
+Score = 171.00202784368187
+attackT 806
+attackT 806
+attackT 806
+Score = 189.5296130054308
+attackT 898
+attackT 868
+attackT 868
+Score = 184.5012218332115
+attackT 825
+attackT 825
+attackT 825
+Score = 249.936311740982
+attackT 691
+attackT 691
+attackT 914
+Score = 1583.622537707839
+attackT 835
+attackT 835
+attackT 835
+Score = 1510.7106265277948
+attackT 542
+attackT 921
+attackT 921
+Score = 1381.0610832638974
+attackT 890
+attackT 890
+attackT 890
+Score = 261.9228746537811
+attackT 647
+attackT 647
+attackT 647
+Score = 1615.2986065206615
+attackT 761
+attackT 842
+attackT 842
+Score = 1442.9793030023425
+attackT 607
+attackT 607
+attackT 607
+Score = 1550.8567923501505
+attackT 834
+attackT 834
+attackT 834
+Score = 198.86236957306554
+attackT 896
+attackT 854
+attackT 854
+Score = 727.4533114141985
+attackT 542
+attackT 542
+attackT 542
+Score = 1529.4443108573548
+attackT 962
+attackT 962
+attackT 962
+Score = 229.41541751102858
+attackT 966
+attackT 878
+attackT 878
+Score = 1411.6350144759163
+attackT 721
+attackT 721
+attackT 721
+Score = 1546.6006317894366
+attackT 799
+attackT 799
+attackT 799
+Score = 1534.4118888250466
+attackT 504
+attackT 612
+attackT 612
+Score = 1549.0245350398363
+attackT 599
+attackT 599
+attackT 599
+Score = 1621.4390682000924
+attackT 758
+attackT 758
+attackT 551
+Score = 186.34903244099516
+attackT 712
+attackT 712
+attackT 705
+Score = 1595.8456165713228
+attackT 532
+attackT 532
+attackT 532
+Score = 1648.1871820249962
+attackT 865
+attackT 772
+attackT 772
+Score = 254.08279826371066
+attackT 577
+attackT 577
+attackT 577
+Score = 1640.2862214587717
+attackT 966
+attackT 882
+attackT 882
+Score = 270.06588565217464
+attackT 617
+attackT 617
+attackT 617
+Score = 1513.1947774534106
+attackT 935
+attackT 935
+attackT 935
+Score = 262.6591284888153
+attackT 579
+attackT 770
+attackT 770
+Score = 1588.6609792896334
+attackT 827
+attackT 827
+attackT 917
+Score = 267.9222736441889
+attackT 806
+attackT 807
+attackT 807
+Score = 1490.9811453670882
+attackT 569
+attackT 569
+attackT 569
+Score = 1624.699391552093
+attackT 743
+attackT 743
+attackT 762
+Score = 1559.2942947438228
+attackT 749
+attackT 749
+attackT 749
+Score = 1461.8038968623432
+attackT 648
+attackT 897
+attackT 897
+Score = 1559.4360053650325
+attackT 727
+attackT 727
+attackT 727
+Score = 291.38087680428856
+attackT 866
+attackT 866
+attackT 866
+Score = 1388.1129723536856
+attackT 630
+attackT 630
+attackT 630
+Score = 1655.4605939610008
+attackT 896
+attackT 896
+attackT 896
+Score = 495.54996927397684
+attackT 724
+attackT 724
+attackT 724
+Score = 1564.705639361221
+attackT 521
+attackT 917
+attackT 917
+Score = 1518.8342221857547
+attackT 840
+attackT 840
+attackT 840
+Score = 308.7189274488415
+attackT 546
+attackT 546
+attackT 546
+Score = 1665.4079366285052
+attackT 881
+attackT 881
+attackT 881
+Score = 228.75562285590078
+attackT 795
+attackT 608
+attackT 608
+Score = 1591.39947008726
+attackT 589
+attackT 589
+attackT 589
+Score = 1522.6488068151007
+attackT 838
+attackT 888
+attackT 888
+Score = 1482.3087487645691
+attackT 750
+attackT 948
+attackT 948
+Score = 1484.582964313693
+attackT 749
+attackT 749
+attackT 749
+Score = 1217.2264477494277
+attackT 756
+attackT 979
+attackT 979
+Score = 1472.7447707027204
+attackT 656
+attackT 929
+attackT 929
+Score = 1348.0693429328066
+attackT 890
+attackT 986
+attackT 986
+Score = 188.63873072846187
+attackT 775
+attackT 775
+attackT 775
+Score = 536.2914989439204
+attackT 766
+attackT 766
+attackT 577
+Score = 1517.872866953043
+attackT 772
+attackT 772
+attackT 772
+Score = 1455.295265437545
+attackT 579
+attackT 579
+attackT 579
+Score = 1569.1735119267364
+attackT 527
+attackT 527
+attackT 527
+Score = 1593.5697200661489
+attackT 898
+attackT 898
+attackT 717
+Score = 1452.6884500222195
+attackT 945
+attackT 945
+attackT 945
+Score = 267.97213977203955
+attackT 857
+attackT 857
+attackT 857
+Score = 222.08417888159943
+attackT 568
+attackT 568
+attackT 568
+Score = 1659.8329980681397
+attackT 645
+attackT 880
+attackT 880
+Score = 1473.4950323376047
+attackT 989
+attackT 989
+attackT 989
+Score = 217.41194103214673
+attackT 604
+attackT 604
+attackT 604
+Score = 1617.1434281327374
