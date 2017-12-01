@@ -1,0 +1,179 @@
+/*
+HAL Programming Contest 2017 Viewer
+Copyright (c) 2017 HAL Laboratory, Inc.
+*/
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  outline: none;
+  padding: 0;
+}
+
+body {
+  color: #000;
+  font-size: 16px;
+  padding: 1rem;
+}
+
+button {
+  background: #fff;
+  border: 1px solid #888;
+  border-radius: .4rem;
+  cursor: pointer;
+  font-size: inherit;
+  line-height: 1.2rem;
+  padding: .2rem .4rem;
+  white-space: nowrap;
+}
+button:hover {
+  opacity: .8;
+}
+button[disabled] {
+  opacity: .3;
+}
+
+input[type="number"] {
+  border: 1px solid #888;
+  border-radius: .2rem;
+  font-size: inherit;
+  padding: .2rem .4rem;
+  text-align: right;
+  width: 5rem;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  border-radius: .2rem;
+  display: inline-block;
+  flex-direction: row;
+  padding: .5rem;
+}
+legend {
+  font-weight: bold;
+}
+.ctrlpanels {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.ctrlpanels > fieldset {
+  margin: 0 .5rem .5rem 0;
+}
+.ctrlpanel {
+  white-space: nowrap;
+}
+
+.import {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.import > label {
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+}
+.import > label > input {
+  border: 1px solid #ccc;
+  padding: 3rem;
+  position: relative;
+}
+.import > span {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 2rem;
+}
+
+.stagebuttons {
+  line-height: .5;
+  margin-bottom: .5rem;
+}
+.stagebuttons > button {
+  background: #f00;
+  border: 2px solid transparent;
+  border-color: rgba(255, 255, 255, .5) rgba(0, 0, 0, .5) rgba(0, 0, 0, .5) rgba(255, 255, 255, .5);
+  border-radius: 4px;
+  height: 1rem;
+  width: 1rem;
+}
+.stagebuttons > button.current {
+  border-color: rgba(0, 0, 0, .5) rgba(255, 255, 255, .5) rgba(255, 255, 255, .5) rgba(0, 0, 0, .5);
+}
+
+.mask {
+  display: inline-block;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+#slider {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  display: inline-block;
+  line-height: 0;
+  position: relative;
+  width: 100%;
+}
+#slider > *:first-child {
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  cursor: move;
+  display: inline-block;
+  height: 1rem;
+  position: relative;
+  width: 1rem;
+}
+
+.tooltip {
+  position: relative;
+  z-index: 0;
+}
+
+.field {
+  background: #edb;
+  background-image:
+    linear-gradient(rgba(0, 0, 0, .2) 1px, transparent 0),
+    linear-gradient(90deg, rgba(0, 0, 0, .2) 1px, transparent 0),
+    linear-gradient(rgba(0, 0, 0, .1) 1px, transparent 0),
+    linear-gradient(90deg, rgba(0, 0, 0, .1) 1px, transparent 0);
+  background-size: 100px 100px, 100px 100px, 10px 10px, 10px 10px;
+  cursor: crosshair;
+  display: inline-block;
+  position: relative;
+
+  z-index: 0;
+}
+
+.office, .house, .ufo {
+  display: inline-block;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+.office {
+  background: #4c4;
+}
+.house {
+}
+.ufo {
+  background: #fff;
+  border: 1px solid #000;
+}
+
+.balloon {
+  background: #000;
+  border-radius: .5rem;
+  color: #fff;
+  display: inline-block;
+  font-size: .8rem;
+  padding: .2rem .5rem;
+  pointer-events: none;
+  position: absolute;
+  transform: translate(-50%, -150%);
+  white-space: nowrap;
+}

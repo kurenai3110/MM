@@ -1,0 +1,33 @@
+﻿  Answer.cpp
+src\Answer.cpp(116): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+src\Answer.cpp(137): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+src\Answer.cpp(144): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+src\Answer.cpp(159): warning C4244: '引数': 'double' から 'float' への変換です。データが失われる可能性があります。
+src\Answer.cpp(163): warning C4305: '*=': 'double' から 'float' へ切り詰めます。
+src\Answer.cpp(245): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+src\Answer.cpp(260): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+src\Answer.cpp(294): warning C4244: '初期化中': 'double' から 'int' への変換です。データが失われる可能性があります。
+src\Answer.cpp(319): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+src\Answer.cpp(324): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+src\Answer.cpp(351): warning C4244: '/=': 'double' から 'int' への変換です。データが失われる可能性があります。
+src\Answer.cpp(398): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+src\Answer.cpp(409): warning C4244: '=': 'double' から 'int' への変換です。データが失われる可能性があります。
+src\Answer.cpp(423): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+src\Answer.cpp(428): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+src\Answer.cpp(444): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+src\Answer.cpp(449): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+src\Answer.cpp(469): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+src\Answer.cpp(480): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+src\Answer.cpp(487): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+src\Answer.cpp(501): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+src\Answer.cpp(513): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+src\Answer.cpp(526): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+src\Answer.cpp(538): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+src\Answer.cpp(559): warning C4244: '引数': 'const int' から 'float' への変換です。データが失われる可能性があります。
+  コード生成しています。
+  3 of 827 functions ( 0.4%) were compiled, the rest were copied from previous compilation.
+    1 functions were new in current compilation
+    1 functions had inline decision re-evaluated but remain unchanged
+  コード生成が終了しました。
+  HPC2017.vcxproj -> C:\Users\keke0\Desktop\hpc2017\Release\HPC2017.exe
+  HPC2017.vcxproj -> C:\Users\keke0\Desktop\hpc2017\Release\HPC2017.pdb (Full PDB)

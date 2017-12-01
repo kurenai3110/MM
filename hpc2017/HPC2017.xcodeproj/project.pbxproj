@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F464D9C41F664D080009BE84 /* Action.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F464D99C1F664D080009BE84 /* Action.cpp */; };
+		F464D9C51F664D080009BE84 /* Answer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F464D99F1F664D080009BE84 /* Answer.cpp */; };
+		F464D9C61F664D080009BE84 /* House.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F464D9A31F664D080009BE84 /* House.cpp */; };
+		F464D9C71F664D080009BE84 /* Main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F464D9A51F664D080009BE84 /* Main.cpp */; };
+		F464D9C81F664D080009BE84 /* Office.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F464D9A61F664D080009BE84 /* Office.cpp */; };
+		F464D9C91F664D080009BE84 /* Random.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F464D9A91F664D080009BE84 /* Random.cpp */; };
+		F464D9CA1F664D080009BE84 /* Recorder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F464D9AB1F664D080009BE84 /* Recorder.cpp */; };
+		F464D9CB1F664D080009BE84 /* Simulator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F464D9AC1F664D080009BE84 /* Simulator.cpp */; };
+		F464D9CC1F664D080009BE84 /* Stage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F464D9AD1F664D080009BE84 /* Stage.cpp */; };
+		F464D9CD1F664D080009BE84 /* UFO.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F464D9AF1F664D080009BE84 /* UFO.cpp */; };
+		F464D9CE1F664D080009BE84 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F464D9B31F664D080009BE84 /* Game.cpp */; };
+		F464D9CF1F664D080009BE84 /* Vector2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F464D9B41F664D080009BE84 /* Vector2.cpp */; };
+		F464D9D01F664D080009BE84 /* Math.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F464D9BA1F664D080009BE84 /* Math.cpp */; };
+		F464D9D11F664D080009BE84 /* Parameter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F464D9BC1F664D080009BE84 /* Parameter.cpp */; };
+		F464D9D21F664D080009BE84 /* RandomSeed.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F464D9BE1F664D080009BE84 /* RandomSeed.cpp */; };
+		F464D9D31F664D080009BE84 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F464D9C11F664D080009BE84 /* Timer.cpp */; };
+		F464D9D41F664D080009BE84 /* Util.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F464D9C31F664D080009BE84 /* Util.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F464D9901F664C920009BE84 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F464D9921F664C920009BE84 /* HPC2017 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HPC2017; sourceTree = BUILT_PRODUCTS_DIR; };
+		F464D99C1F664D080009BE84 /* Action.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Action.cpp; path = src/Action.cpp; sourceTree = "<group>"; };
+		F464D99D1F664D080009BE84 /* Action.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Action.hpp; path = src/Action.hpp; sourceTree = "<group>"; };
+		F464D99E1F664D080009BE84 /* ActionType.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ActionType.hpp; path = src/ActionType.hpp; sourceTree = "<group>"; };
+		F464D99F1F664D080009BE84 /* Answer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Answer.cpp; path = src/Answer.cpp; sourceTree = "<group>"; };
+		F464D9A01F664D080009BE84 /* Answer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Answer.hpp; path = src/Answer.hpp; sourceTree = "<group>"; };
+		F464D9A11F664D080009BE84 /* Array.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Array.hpp; path = src/Array.hpp; sourceTree = "<group>"; };
+		F464D9A21F664D080009BE84 /* Assert.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Assert.hpp; path = src/Assert.hpp; sourceTree = "<group>"; };
+		F464D9A31F664D080009BE84 /* House.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = House.cpp; path = src/House.cpp; sourceTree = "<group>"; };
+		F464D9A41F664D080009BE84 /* House.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = House.hpp; path = src/House.hpp; sourceTree = "<group>"; };
+		F464D9A51F664D080009BE84 /* Main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Main.cpp; path = src/Main.cpp; sourceTree = "<group>"; };
+		F464D9A61F664D080009BE84 /* Office.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Office.cpp; path = src/Office.cpp; sourceTree = "<group>"; };
+		F464D9A71F664D080009BE84 /* Office.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Office.hpp; path = src/Office.hpp; sourceTree = "<group>"; };
+		F464D9A81F664D080009BE84 /* Parameter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Parameter.hpp; path = src/Parameter.hpp; sourceTree = "<group>"; };
+		F464D9A91F664D080009BE84 /* Random.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Random.cpp; path = src/Random.cpp; sourceTree = "<group>"; };
+		F464D9AA1F664D080009BE84 /* Random.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Random.hpp; path = src/Random.hpp; sourceTree = "<group>"; };
+		F464D9AB1F664D080009BE84 /* Recorder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Recorder.cpp; path = src/Recorder.cpp; sourceTree = "<group>"; };
+		F464D9AC1F664D080009BE84 /* Simulator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Simulator.cpp; path = src/Simulator.cpp; sourceTree = "<group>"; };
+		F464D9AD1F664D080009BE84 /* Stage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Stage.cpp; path = src/Stage.cpp; sourceTree = "<group>"; };
+		F464D9AE1F664D080009BE84 /* Stage.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Stage.hpp; path = src/Stage.hpp; sourceTree = "<group>"; };
+		F464D9AF1F664D080009BE84 /* UFO.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = UFO.cpp; path = src/UFO.cpp; sourceTree = "<group>"; };
+		F464D9B01F664D080009BE84 /* UFO.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = UFO.hpp; path = src/UFO.hpp; sourceTree = "<group>"; };
+		F464D9B11F664D080009BE84 /* UFOType.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = UFOType.hpp; path = src/UFOType.hpp; sourceTree = "<group>"; };
+		F464D9B21F664D080009BE84 /* Util.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Util.hpp; path = src/Util.hpp; sourceTree = "<group>"; };
+		F464D9B31F664D080009BE84 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Game.cpp; path = src/Game.cpp; sourceTree = "<group>"; };
+		F464D9B41F664D080009BE84 /* Vector2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Vector2.cpp; path = src/Vector2.cpp; sourceTree = "<group>"; };
+		F464D9B51F664D080009BE84 /* Vector2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Vector2.hpp; path = src/Vector2.hpp; sourceTree = "<group>"; };
+		F464D9B61F664D080009BE84 /* Recorder.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Recorder.hpp; path = src/Recorder.hpp; sourceTree = "<group>"; };
+		F464D9B71F664D080009BE84 /* ArrayNum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = ArrayNum.hpp; path = src/ArrayNum.hpp; sourceTree = "<group>"; };
+		F464D9B81F664D080009BE84 /* Types.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Types.hpp; path = src/Types.hpp; sourceTree = "<group>"; };
+		F464D9B91F664D080009BE84 /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Game.hpp; path = src/Game.hpp; sourceTree = "<group>"; };
+		F464D9BA1F664D080009BE84 /* Math.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Math.cpp; path = src/Math.cpp; sourceTree = "<group>"; };
+		F464D9BB1F664D080009BE84 /* Math.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Math.hpp; path = src/Math.hpp; sourceTree = "<group>"; };
+		F464D9BC1F664D080009BE84 /* Parameter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Parameter.cpp; path = src/Parameter.cpp; sourceTree = "<group>"; };
+		F464D9BD1F664D080009BE84 /* Print.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Print.hpp; path = src/Print.hpp; sourceTree = "<group>"; };
+		F464D9BE1F664D080009BE84 /* RandomSeed.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RandomSeed.cpp; path = src/RandomSeed.cpp; sourceTree = "<group>"; };
+		F464D9BF1F664D080009BE84 /* RandomSeed.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = RandomSeed.hpp; path = src/RandomSeed.hpp; sourceTree = "<group>"; };
+		F464D9C01F664D080009BE84 /* Simulator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Simulator.hpp; path = src/Simulator.hpp; sourceTree = "<group>"; };
+		F464D9C11F664D080009BE84 /* Timer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Timer.cpp; path = src/Timer.cpp; sourceTree = "<group>"; };
+		F464D9C21F664D080009BE84 /* Timer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Timer.hpp; path = src/Timer.hpp; sourceTree = "<group>"; };
+		F464D9C31F664D080009BE84 /* Util.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Util.cpp; path = src/Util.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F464D98F1F664C920009BE84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F464D9891F664C920009BE84 = {
+			isa = PBXGroup;
+			children = (
+				F464D99C1F664D080009BE84 /* Action.cpp */,
+				F464D99D1F664D080009BE84 /* Action.hpp */,
+				F464D99E1F664D080009BE84 /* ActionType.hpp */,
+				F464D99F1F664D080009BE84 /* Answer.cpp */,
+				F464D9A01F664D080009BE84 /* Answer.hpp */,
+				F464D9A11F664D080009BE84 /* Array.hpp */,
+				F464D9A21F664D080009BE84 /* Assert.hpp */,
+				F464D9A31F664D080009BE84 /* House.cpp */,
+				F464D9A41F664D080009BE84 /* House.hpp */,
+				F464D9A51F664D080009BE84 /* Main.cpp */,
+				F464D9A61F664D080009BE84 /* Office.cpp */,
+				F464D9A71F664D080009BE84 /* Office.hpp */,
+				F464D9A81F664D080009BE84 /* Parameter.hpp */,
+				F464D9A91F664D080009BE84 /* Random.cpp */,
+				F464D9AA1F664D080009BE84 /* Random.hpp */,
+				F464D9AB1F664D080009BE84 /* Recorder.cpp */,
+				F464D9AC1F664D080009BE84 /* Simulator.cpp */,
+				F464D9AD1F664D080009BE84 /* Stage.cpp */,
+				F464D9AE1F664D080009BE84 /* Stage.hpp */,
+				F464D9AF1F664D080009BE84 /* UFO.cpp */,
+				F464D9B01F664D080009BE84 /* UFO.hpp */,
+				F464D9B11F664D080009BE84 /* UFOType.hpp */,
+				F464D9B21F664D080009BE84 /* Util.hpp */,
+				F464D9B31F664D080009BE84 /* Game.cpp */,
+				F464D9B41F664D080009BE84 /* Vector2.cpp */,
+				F464D9B51F664D080009BE84 /* Vector2.hpp */,
+				F464D9B61F664D080009BE84 /* Recorder.hpp */,
+				F464D9B71F664D080009BE84 /* ArrayNum.hpp */,
+				F464D9B81F664D080009BE84 /* Types.hpp */,
+				F464D9B91F664D080009BE84 /* Game.hpp */,
+				F464D9BA1F664D080009BE84 /* Math.cpp */,
+				F464D9BB1F664D080009BE84 /* Math.hpp */,
+				F464D9BC1F664D080009BE84 /* Parameter.cpp */,
+				F464D9BD1F664D080009BE84 /* Print.hpp */,
+				F464D9BE1F664D080009BE84 /* RandomSeed.cpp */,
+				F464D9BF1F664D080009BE84 /* RandomSeed.hpp */,
+				F464D9C01F664D080009BE84 /* Simulator.hpp */,
+				F464D9C11F664D080009BE84 /* Timer.cpp */,
+				F464D9C21F664D080009BE84 /* Timer.hpp */,
+				F464D9C31F664D080009BE84 /* Util.cpp */,
+				F464D9931F664C920009BE84 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F464D9931F664C920009BE84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F464D9921F664C920009BE84 /* HPC2017 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F464D9911F664C920009BE84 /* HPC2017 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F464D9991F664C920009BE84 /* Build configuration list for PBXNativeTarget "HPC2017" */;
+			buildPhases = (
+				F464D98E1F664C920009BE84 /* Sources */,
+				F464D98F1F664C920009BE84 /* Frameworks */,
+				F464D9901F664C920009BE84 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HPC2017;
+			productName = HPC2017;
+			productReference = F464D9921F664C920009BE84 /* HPC2017 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F464D98A1F664C920009BE84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				TargetAttributes = {
+					F464D9911F664C920009BE84 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F464D98D1F664C920009BE84 /* Build configuration list for PBXProject "HPC2017" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F464D9891F664C920009BE84;
+			productRefGroup = F464D9931F664C920009BE84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F464D9911F664C920009BE84 /* HPC2017 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F464D98E1F664C920009BE84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F464D9C91F664D080009BE84 /* Random.cpp in Sources */,
+				F464D9CF1F664D080009BE84 /* Vector2.cpp in Sources */,
+				F464D9D41F664D080009BE84 /* Util.cpp in Sources */,
+				F464D9CA1F664D080009BE84 /* Recorder.cpp in Sources */,
+				F464D9C41F664D080009BE84 /* Action.cpp in Sources */,
+				F464D9D01F664D080009BE84 /* Math.cpp in Sources */,
+				F464D9C51F664D080009BE84 /* Answer.cpp in Sources */,
+				F464D9C81F664D080009BE84 /* Office.cpp in Sources */,
+				F464D9C71F664D080009BE84 /* Main.cpp in Sources */,
+				F464D9CD1F664D080009BE84 /* UFO.cpp in Sources */,
+				F464D9CE1F664D080009BE84 /* Game.cpp in Sources */,
+				F464D9CB1F664D080009BE84 /* Simulator.cpp in Sources */,
+				F464D9D31F664D080009BE84 /* Timer.cpp in Sources */,
+				F464D9D11F664D080009BE84 /* Parameter.cpp in Sources */,
+				F464D9C61F664D080009BE84 /* House.cpp in Sources */,
+				F464D9CC1F664D080009BE84 /* Stage.cpp in Sources */,
+				F464D9D21F664D080009BE84 /* RandomSeed.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F464D9971F664C920009BE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"LOCAL=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F464D9981F664C920009BE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"LOCAL=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F464D99A1F664C920009BE84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F464D99B1F664C920009BE84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F464D98D1F664C920009BE84 /* Build configuration list for PBXProject "HPC2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F464D9971F664C920009BE84 /* Debug */,
+				F464D9981F664C920009BE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F464D9991F664C920009BE84 /* Build configuration list for PBXNativeTarget "HPC2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F464D99A1F664C920009BE84 /* Debug */,
+				F464D99B1F664C920009BE84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F464D98A1F664C920009BE84 /* Project object */;
+}

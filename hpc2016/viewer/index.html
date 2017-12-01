@@ -1,0 +1,62 @@
+<!--
+HAL Programming Contest 2016 Viewer
+Copyright (c) 2016 HAL Laboratory, Inc.
+ -->
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css"></style>
+<title>viewer</title>
+<div>
+  <div>
+    <div>
+      <input @change="import" @click="reset" type="file" class="import">
+      <div>ここにファイルをドラッグ＆ドロップできます（IE非対応）</div>
+    </div>
+    <span v-show="json" v-text="'Total turn: '+json[0]"></span>
+    <div v-show="json">
+      <section class="section">
+        <h1 class="h">Stage</h1>
+        <div class="stageButtons">
+          <div
+            v-for="(i,s) in stages"
+            :class="stage===i?'current':''" @click="stage=i" :style="{background:stageColor(i)}">
+            <div v-text="s[2].length"></div>
+          </div>
+        </div>
+        <button @click="stage=0" :disabled="isPlay||stage==0">&lt;&lt;</button>
+        <button @click="stage--" :disabled="isPlay||stage==0">&lt;</button>
+        <input v-model="stage" :disabled="isPlay" type="number"><span v-text="'/'+(stages.length-1)"></span>
+        <button @click="stage++" :disabled="isPlay||stage>=stages.length-1">&gt;</button>
+        <button @click="stage=stages.length-1" :disabled="isPlay||stage>=stages.length-1">&gt;&gt;</button>
+      </section>
+      <section class="section">
+        <h1 class="h">Turn</h1>
+        <div>
+          <button @click="turn=0" :disabled="isPlay||turn==0">&lt;&lt;</button>
+          <button @click="turn--" :disabled="isPlay||turn==0">&lt;</button>
+          <input v-model="turn" :disabled="isPlay" type="number"><span v-text="'/'+(turns.length-1)"></span>
+          <button @click="turn++" :disabled="isPlay||turn>=turns.length-1">&gt;</button>
+          <button @click="turn=turns.length-1" :disabled="isPlay||turn>=turns.length-1">&gt;&gt;</button>
+        </div>
+        <div @mousedown="drag($event)" id="slider">
+          <div></div>
+          <div @mouseup="isDrag=false" @mousemove="drag($event)" v-show="isDrag" class="mask"></div>
+        </div>
+      </section>
+      <section class="section">
+        <h1 class="h">Play</h1>
+        <button @click="isPlay=!isPlay" v-text="isPlay?'停止':'再生'"></button>
+        <label><input v-model="playType" type="radio" value="0">通常再生</label>
+        <label><input v-model="playType" type="radio" value="1">繰り返し</label>
+        <label><input v-model="playType" type="radio" value="2">連続再生</label>
+      </section>
+    </div>
+  </div>
+  <div v-show="json" :style="{height:stageHeight+'px',width:stageWidth+'px'}" class="field">
+    <div :style="shipStyle" class="ship"></div>
+    <div v-for="(i,l) in lasers" v-if="isLaserExist(i)" :style="laserStyle(i)" class="laser"></div>
+    <div v-for="(i,m) in asteroids" :style="asteroidStyle(m)" :class="isAsteroidExist(i)?'':'break'" class="asteroid"></div>
+  </div>
+</div>
+<script src="vue.min.js"></script>
+<script src="main.js"></script>

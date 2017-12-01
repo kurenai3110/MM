@@ -1,0 +1,66 @@
+<!--
+HAL Programming Contest 2017 Viewer
+Copyright (c) 2017 HAL Laboratory, Inc.
+ -->
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>viewer</title>
+<div>
+  <div class="import">
+    <label>
+      <input @change="import" @click="reset" type="file">
+      ここにファイルをドラッグ＆ドロップできます（IE,Edge非対応）
+    </label>
+    <span v-if="totalturn" v-text="'TotalTurn: '+totalturn"></span>
+  </div>
+  <div v-show="json" class="ctrlpanels">
+    <fieldset>
+      <legend>Stage</legend>
+      <div class="stagebuttons">
+        <button v-for="(i,s) in stages" :class="stage===i?'current':''" @click="stage=i" :style="{background:stageColor(i)}"></button>
+      </div>
+      <div v-text="'ボタンの色は、ターン数が'+minColorScore+'以下なら緑色、'+maxColorScore+'以上だと赤色になります'"></div>
+      <div class="ctrlpanel">
+        <button @click="stage=0" :disabled="isPlay||stage==0">&lt;&lt;</button>
+        <button @click="stage--" :disabled="isPlay||stage==0">&lt;</button>
+        <input v-model="stage" :disabled="isPlay" type="number"><span v-text="'/'+(stages.length-1)"></span>
+        <button @click="stage++" :disabled="isPlay||stage>=stages.length-1">&gt;</button>
+        <button @click="stage=stages.length-1" :disabled="isPlay||stage>=stages.length-1">&gt;&gt;</button>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Turn</legend>
+      <div class="ctrlpanel">
+        <button @click="turn=0" :disabled="isPlay||turn==0">&lt;&lt;</button>
+        <button @click="turn--" :disabled="isPlay||turn==0">&lt;</button>
+        <input v-model="turn" :disabled="isPlay" type="number"><span v-text="'/'+(turns.length-1)"></span>
+        <button @click="turn++" :disabled="isPlay||turn>=turns.length-1">&gt;</button>
+        <button @click="turn=turns.length-1" :disabled="isPlay||turn>=turns.length-1">&gt;&gt;</button>
+      </div>
+      <div @mousedown="drag($event)" id="slider">
+        <div></div>
+        <div @mouseup="isDrag=false" @mousemove="drag($event)" v-show="isDrag" class="mask"></div>
+      </div>
+    </fieldset>
+    <fieldset>
+      <legend>Play</legend>
+      <button @click="isPlay=!isPlay" v-text="isPlay?'停止':'再生'"></button>
+      <div class="ctrlpanel">
+        <label><input v-model="playType" type="radio" value="0">通常再生</label>
+        <label><input v-model="playType" type="radio" value="1">繰り返し</label>
+        <label><input v-model="playType" type="radio" value="2">連続再生</label>
+      </div>
+    </fieldset>
+  </div>
+  <div v-show="json" class="field" :style="{width:configs[1]+'px',height:configs[2]+'px'}">
+    <div class="office" :style="officeStyle()"></div>
+    <div class="house tooltip" v-for="(i,house) in houses" :style="houseStyle(i)" :data-tooltip="'ID: '+i+' ( '+house[0]+' , '+house[1]+' )'"></div>
+    <div class="ufo tooltip" v-for="(i,ufo) in ufos" :style="ufoStyle(i)" :data-tooltip="'ID: '+i+' ( '+ufo[0][0]+' , '+ufo[0][1]+' ) 荷物数: '+ufo[2]"></div>
+    <div class="balloon" v-if="balloon" v-text="balloon.text" :style="balloonStyle()"></div>
+  </div>
+</div>
+<script src="vue.min.js"></script>
+<script src="main.js"></script>

@@ -1,0 +1,3 @@
+﻿  Answer.cpp
+c:\users\keke0\desktop\hpc2016\src\answer.cpp(173): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  HPC2016.vcxproj -> C:\Users\keke0\Desktop\hpc2016\Debug\HPC2016.exe
