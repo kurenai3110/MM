@@ -5,22 +5,6 @@
 #include <cmath>
 using namespace std;
 
-
-class Xor128 {
-	unsigned int x, y, z, w;
-public:
-	Xor128(unsigned int seed = 31103110) {
-		x = seed, y = 123456789, z = 521288629, w = 88675123;
-	}
-
-	unsigned int rand()
-	{
-		unsigned int t;
-		t = (x ^ (x << 11)); x = y; y = z; z = w;
-		return(w = (w ^ (w >> 19)) ^ (t ^ (t >> 8)));
-	}
-};
-
 int PAY[7] = { 1000, 200, 100, 50, 20, 10, 5 };
 
 int ALP_CNT[7] = { 2, 4, 5 ,6, 6, 7, 8 };
@@ -237,7 +221,7 @@ public:
 				current_coins = current_coins - 1 + win;
 			}
 
-			//cerr << " " << id << " " << estimated_payouts[id] << " " << eval[id_index].first << endl;
+			//cerr << " " << id << " " << estimated_payouts[id] << " " << eval[0].first << endl;
 		}
 
 		return 0;
